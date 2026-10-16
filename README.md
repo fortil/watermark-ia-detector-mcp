@@ -92,3 +92,8 @@ make test
 ```
 
 The suite is offline. HTTP goes only to a mock on 127.0.0.1, and the signed fixtures are generated at test time with a throwaway PKI; nothing signed is committed.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
