@@ -1,5 +1,14 @@
 # watermark-ia-detector-mcp
 
+<p align="center">
+  <a href="https://github.com/fortil/watermark-ia-detector-mcp"><img src="https://img.shields.io/badge/github-fortil%2Fwatermark--ia--detector--mcp-181717?logo=github" alt="github.com/fortil/watermark-ia-detector-mcp"></a>
+  <img src="https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white" alt="Python 3.11+">
+  <img src="https://img.shields.io/badge/MCP-server-5F45AF" alt="MCP server">
+  <img src="https://img.shields.io/badge/detects-C2PA%20%7C%20IPTC%20XMP%20%7C%20GB%2045438-4B3B99" alt="detects C2PA, IPTC XMP and GB 45438">
+  <img src="https://img.shields.io/badge/engine-watermark--detector-2B2B2B" alt="watermark-detector engine">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="license MIT">
+</p>
+
 An MCP server (stdio transport) that exposes the `watermark-detector` package as tools, for clients such as Claude Desktop, ZCode or Cursor. Detection only: no tool here removes, rewrites or perturbs a watermark.
 
 The engine lives in the sibling repo `../watermark-detector`. This repo is the MCP wrapper and does not modify the engine.
