@@ -36,3 +36,9 @@ The only thing that may be sent is the generic data a site needs to work: browse
 - Invented test data (fixtures, test accounts unrelated to the user) is not user data.
 - If the task cannot be completed without sending user data, the agent stops, says which data the site asks for and waits for the user's decision.
 <!-- /regla-privacidad -->
+
+## Ubicación y copias de trabajo
+
+- Este repo vive en `own/medios/watermark-ia-detector-mcp`. Las reglas de ubicación de todos los proyectos están en el `AGENTS.md` de `own/` (`../../AGENTS.md` desde la raíz de este repo).
+- Worktrees, lanes y copias temporales: solo en `.tasky/worktree/<slug>/` dentro de este repo. Nunca en una carpeta hermana ni en la carpeta del tema.
+- Las corridas se lanzan desde la raíz de este repo, nunca desde la carpeta del tema ni desde `own/`.
